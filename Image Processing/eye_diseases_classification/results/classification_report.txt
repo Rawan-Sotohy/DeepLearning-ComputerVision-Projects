@@ -1,0 +1,12 @@
+Classification Report - VGG16 Fine-tuned
+======================================================================
+                      precision    recall  f1-score   support
+
+            cataract     0.8762    0.8551    0.8655       207
+diabetic_retinopathy     0.9245    0.8950    0.9095       219
+            glaucoma     0.7551    0.3682    0.4950       201
+              normal     0.5775    0.8879    0.6998       214
+
+            accuracy                         0.7574       841
+           macro avg     0.7833    0.7515    0.7425       841
+        weighted avg     0.7838    0.7574    0.7463       841
