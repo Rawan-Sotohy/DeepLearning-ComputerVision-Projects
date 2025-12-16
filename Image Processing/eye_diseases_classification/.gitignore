@@ -1,0 +1,100 @@
+# ============================================
+# .gitignore for Eye Disease Classification
+# ============================================
+
+# Dataset - DO NOT PUSH TO GITHUB
+*.zip
+eye_diseases_data/
+dataset/
+data/
+
+# Kaggle API Key - NEVER PUSH THIS!
+kaggle.json
+.kaggle/
+
+# ============================================
+# TRAINED MODELS - TOO LARGE FOR GITHUB
+# ============================================
+# Individual model files
+best_custom_cnn.keras
+best_efficientnet.keras
+best_resnet50.keras
+best_vgg16.keras
+best_vgg16_finetuned.keras
+
+# All .keras files
+*.keras
+
+# Other model formats
+*.h5
+*.hdf5
+*.pb
+
+# Entire models directory
+models/*.keras
+models/*.h5
+
+# ============================================
+# Python & Jupyter
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Training Artifacts
+# ============================================
+# Pickle files (optional - they're binary)
+training_histories.pkl
+*.pkl
+
+# TensorBoard logs
+logs/
+runs/
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+ENV/
+env/
+.venv
+
+# ============================================
+# IDEs
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# Operating System
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.log
+
+# ============================================
+# Large Files (GitHub limit is 100MB)
+# ============================================
+*.npy
+*.npz
